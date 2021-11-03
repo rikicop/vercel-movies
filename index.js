@@ -10,7 +10,7 @@ app.get("/portfolio", (req, res) =>
   res.send("De que portafolio estás hablando!!")
 );
 
-app.get("/contact", (req, res) => res.send("Contact Page Route"));
+app.get("/contact", (req, res) => res.send("Esta es la página de contacto"));
 
 const port = process.env.PORT || 5000;
 
